@@ -8,6 +8,7 @@ import {compareDesc, format, parseISO} from "date-fns";
 import {FeedbackCard} from "./components/feedback-card";
 import {Button, ButtonContainer} from "./components/button";
 import {FEEDBACK_FORM, MY_DIARY} from "./App";
+import ReactCustomizeCalendar from './components/calendar';
 
 const CenteredDiv = styled.div`
   text-align: center;
@@ -112,6 +113,11 @@ export const MyDiary = ({onPageChange}) => {
 
         return grouped;
     }, new Map());
+    
+    const onChangeDay = (day) => {
+    console.log("day", day);
+    console.log("feedbackList", feedbackList);
+    };
 
     return (<Card>
         <CardHeader dismissible>
@@ -145,6 +151,11 @@ export const MyDiary = ({onPageChange}) => {
                     </BoxChipsContainer>
                 </BottomBorderedCardSection>
             }
+            <CardSection>
+                <DateSection>
+                    <ReactCustomizeCalendar onChangeDay={onChangeDay}/>
+                </DateSection>
+            </CardSection>
             <CardSection>
                 {Array.from(feedbackKeyedByDate.entries()).map(([date, feedbackItems]) => <div key={date}>
                     <DateSection>

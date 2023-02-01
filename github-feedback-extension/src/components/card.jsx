@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 
 export const Card = styled.div`
-    width: 360px;
+    width: 500px;
     border-radius: 15px;
     border: 1px solid rgba(0,0,0,0.1);
     overflow: hidden;

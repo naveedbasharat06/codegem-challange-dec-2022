@@ -26,6 +26,21 @@ export function emojiAndColorForSentiment(sentiment) {
     }
 }
 
+export function classForSentiment(sentiment) {
+    switch (sentiment) {
+        case 1:
+        case 2:
+            return 'sad';
+        case 3:
+            return 'normal';
+        case 4:
+        case 5:
+            return 'happy';
+        default:
+            return null;
+    }
+}
+
 export function textForSentiment(sentiment) {
     switch (sentiment) {
         default:

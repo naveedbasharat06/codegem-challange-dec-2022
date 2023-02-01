@@ -1,0 +1,138 @@
+.react-calendar {
+  margin-top: -30px;
+  border: none;
+  width: 500px;
+}
+
+.react-calendar .react-calendar__month-view__weekdays > div {
+  padding: 12px;
+  
+}
+
+.react-calendar .highlight-selected-sad {
+  /* position: absolute; */
+  width: 115px;
+  height: 40px;;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #FFFFFF;
+  background-color: #DC3047;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+}
+
+.react-calendar .highlight-selected-normal {
+  /* position: absolute; */
+  width: 115px;
+  height: 40px;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #FFFFFF;
+  background-color: #FFC74A;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+}
+
+.react-calendar .highlight-selected-happy {
+  /* position: absolute; */
+  width: 115px;
+  height: 40px;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #FFFFFF;
+  background-color: #46C895;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+}
+
+.react-calendar .highlight-selected-happy:hover {
+  /* position: absolute; */
+  width: 115px;
+  height: 40px;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #FFFFFF;
+  background-color: #46C895;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+}
+
+.react-calendar .highlight-selected-sad:hover {
+  /* position: absolute; */
+  width: 115px;
+  height: 40px;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #FFFFFF;
+  background-color: pink;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+}
+
+.react-calendar .highlight-selected-normal:hover {
+  /* position: absolute; */
+  width: 115px;
+  height: 40px;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #FFFFFF;
+  background-color: yellow;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+}
+
+
+
+
+.react-calendar .highlight-unselected {
+  width: 115px;
+  height: 40px;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #CBD5F7;
+  background-color: #F5F8FF;
+}
+
+/* .react-calendar .highlight-unselected:hover {
+  width: 115px;
+  height: 40px;
+  left: 168px;
+  top: 267px;
+  padding: 2px;
+  margin: 5px;
+  color: #CBD5F7;
+  background-color: blue;
+} */
+
+
+/* .react-calendar .highlight-green {
+  width: 34.21px;
+  height: 50px;
+  background: linear-gradient(180deg, #8BF7D1 0%, #46C895 100%);
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+} */
+.react-calendar .react-calendar__month-view__days > button {
+  width: 115px;
+  height: 50px;
+  font: Nunito;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 6.86px 6.86px 6.86px 4.5px;
+}

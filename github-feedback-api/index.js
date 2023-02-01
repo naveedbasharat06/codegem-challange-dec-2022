@@ -15,6 +15,7 @@ const APPROVED_ORIGINS = new Set(
 app.use(express.json());
 app.use(cors({
     origin: (origin, callback) => {
+        if (!origin)origin='http://localhost:8080'
         let allowed = APPROVED_ORIGINS.has(origin);
 
         callback(allowed ? null : new Error("not an allowed origin"), allowed);
